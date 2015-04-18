@@ -1,6 +1,6 @@
 //
-//  NYXImagesKitDemoTests.m
-//  NYXImagesKitDemoTests
+//  NYXEnhanceTests.m
+//  NYXImagesKit
 //
 //  Created by Michele Titolo on 4/18/15.
 //  Copyright (c) 2015 MacGeneration. All rights reserved.
@@ -9,15 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import <FBSnapshotTestCase/FBSnapshotTestCase.h>
-
 #import "NYXImagesKitTestHelper.h"
-#import "UIImage+Blurring.h"
 
-@interface NYXBlurTests : FBSnapshotTestCase
+#import "UIImage+Enhancing.h"
+
+@interface NYXEnhanceTests : FBSnapshotTestCase
 
 @end
 
-@implementation NYXBlurTests
+@implementation NYXEnhanceTests
 
 - (void)setUp {
     [super setUp];
@@ -29,13 +29,23 @@
     [super tearDown];
 }
 
-- (void)testBlur
+- (void)testAutoEnhance
 {
     UIImage *originalImage = [NYXImagesKitTestHelper bundledImageNamed:@"cat" type:@"jpg"];
-    UIImage *blurred = [originalImage gaussianBlurWithBias:100];
+    UIImage *enhanced = [originalImage autoEnhance];
     
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:blurred];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:enhanced];
     FBSnapshotVerifyView(imageView, nil);
 }
+
+- (void)testRedEye
+{
+    UIImage *originalImage = [NYXImagesKitTestHelper bundledImageNamed:@"dog-redeye" type:@"jpg"];
+    UIImage *enhanced = [originalImage redEyeCorrection];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:enhanced];
+    FBSnapshotVerifyView(imageView, nil);
+}
+
 
 @end
