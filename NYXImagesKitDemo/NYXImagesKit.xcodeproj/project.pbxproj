@@ -28,6 +28,7 @@
 		D1044DFB1AE30A5500BF9339 /* NYXImagesKitTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DFA1AE30A5500BF9339 /* NYXImagesKitTestHelper.m */; };
 		D1044DFD1AE30AB000BF9339 /* NYXBlurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DFC1AE30AB000BF9339 /* NYXBlurTests.m */; };
 		D1FB45481AE30C4000105C0F /* dog-redeye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1FB45471AE30C4000105C0F /* dog-redeye.jpg */; };
+		D1FB454C1AE30D0700105C0F /* NYXFilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB454B1AE30D0700105C0F /* NYXFilteringTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		D1044DFA1AE30A5500BF9339 /* NYXImagesKitTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXImagesKitTestHelper.m; sourceTree = "<group>"; };
 		D1044DFC1AE30AB000BF9339 /* NYXBlurTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXBlurTests.m; sourceTree = "<group>"; };
 		D1FB45471AE30C4000105C0F /* dog-redeye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dog-redeye.jpg"; sourceTree = "<group>"; };
+		D1FB454B1AE30D0700105C0F /* NYXFilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXFilteringTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,8 +181,9 @@
 				D1044DF51AE3092900BF9339 /* ReferenceImages */,
 				D1044DE61AE2FD0E00BF9339 /* cat.jpg */,
 				D1FB45471AE30C4000105C0F /* dog-redeye.jpg */,
-				D1044DF71AE30A2800BF9339 /* NYXEnhanceTests.m */,
 				D1044DFC1AE30AB000BF9339 /* NYXBlurTests.m */,
+				D1044DF71AE30A2800BF9339 /* NYXEnhanceTests.m */,
+				D1FB454B1AE30D0700105C0F /* NYXFilteringTests.m */,
 				D1044DD91AE2F91F00BF9339 /* Supporting Files */,
 				D1044DF91AE30A5500BF9339 /* NYXImagesKitTestHelper.h */,
 				D1044DFA1AE30A5500BF9339 /* NYXImagesKitTestHelper.m */,
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1FB454C1AE30D0700105C0F /* NYXFilteringTests.m in Sources */,
 				D1044DFD1AE30AB000BF9339 /* NYXBlurTests.m in Sources */,
 				D1044DF81AE30A2800BF9339 /* NYXEnhanceTests.m in Sources */,
 				D1044DFB1AE30A5500BF9339 /* NYXImagesKitTestHelper.m in Sources */,
