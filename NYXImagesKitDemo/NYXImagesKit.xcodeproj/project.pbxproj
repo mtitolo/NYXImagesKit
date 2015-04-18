@@ -31,6 +31,7 @@
 		D1FB454C1AE30D0700105C0F /* NYXFilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB454B1AE30D0700105C0F /* NYXFilteringTests.m */; };
 		D1FB454E1AE311DE00105C0F /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FB454D1AE311DE00105C0F /* mask.png */; };
 		D1FB45501AE311EE00105C0F /* NYXMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB454F1AE311EE00105C0F /* NYXMaskTests.m */; };
+		D1FB45521AE314BA00105C0F /* NYXReflectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB45511AE314BA00105C0F /* NYXReflectionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		D1FB454B1AE30D0700105C0F /* NYXFilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXFilteringTests.m; sourceTree = "<group>"; };
 		D1FB454D1AE311DE00105C0F /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 		D1FB454F1AE311EE00105C0F /* NYXMaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXMaskTests.m; sourceTree = "<group>"; };
+		D1FB45511AE314BA00105C0F /* NYXReflectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXReflectionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				D1044DF71AE30A2800BF9339 /* NYXEnhanceTests.m */,
 				D1FB454B1AE30D0700105C0F /* NYXFilteringTests.m */,
 				D1FB454F1AE311EE00105C0F /* NYXMaskTests.m */,
+				D1FB45511AE314BA00105C0F /* NYXReflectionTests.m */,
 				D1044DD91AE2F91F00BF9339 /* Supporting Files */,
 				D1044DF91AE30A5500BF9339 /* NYXImagesKitTestHelper.h */,
 				D1044DFA1AE30A5500BF9339 /* NYXImagesKitTestHelper.m */,
@@ -402,6 +405,7 @@
 				D1044DFD1AE30AB000BF9339 /* NYXBlurTests.m in Sources */,
 				D1044DF81AE30A2800BF9339 /* NYXEnhanceTests.m in Sources */,
 				D1FB45501AE311EE00105C0F /* NYXMaskTests.m in Sources */,
+				D1FB45521AE314BA00105C0F /* NYXReflectionTests.m in Sources */,
 				D1044DFB1AE30A5500BF9339 /* NYXImagesKitTestHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
