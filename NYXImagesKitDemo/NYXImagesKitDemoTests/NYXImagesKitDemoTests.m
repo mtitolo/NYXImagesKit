@@ -8,12 +8,23 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <FBSnapshotTestCase/FBSnapshotTestCase.h>
 
-@interface NYXImagesKitDemoTests : XCTestCase
+#import "UIImage+Blurring.h"
+
+@interface NYXImagesKitDemoTests : FBSnapshotTestCase
 
 @end
 
 @implementation NYXImagesKitDemoTests
+
+- (UIImage *)bundledImageNamed:(NSString *)name type:(NSString *)type
+{
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString *path = [bundle pathForResource:name ofType:type];
+    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+    return [[UIImage alloc] initWithData:data];
+}
 
 - (void)setUp {
     [super setUp];
@@ -25,16 +36,13 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testBlur
+{
+    UIImage *originalImage = [self bundledImageNamed:@"cat" type:@"jpg"];
+    UIImage *blurred = [originalImage gaussianBlurWithBias:100];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:blurred];
+    FBSnapshotVerifyView(imageView, nil);
 }
 
 @end

@@ -1,10 +1,17 @@
 PODS:
   - FBSnapshotTestCase (1.6)
+  - NYXImagesKit (2.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
+  - NYXImagesKit (from `../NYXImagesKit.podspec`)
+
+EXTERNAL SOURCES:
+  NYXImagesKit:
+    :path: ../NYXImagesKit.podspec
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  NYXImagesKit: aee936db5649a281b404b654a773bc041d8a8188
 
 COCOAPODS: 0.36.4

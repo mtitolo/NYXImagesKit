@@ -7,40 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E0289DB144EF32200B6B6D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0289DA144EF32200B6B6D5 /* Foundation.framework */; };
-		1E0289ED144EF38B00B6B6D5 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289EC144EF38B00B6B6D5 /* Prefix.pch */; };
-		1E028A01144EF39800B6B6D5 /* UIImage+Blurring.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289EF144EF39800B6B6D5 /* UIImage+Blurring.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A02144EF39800B6B6D5 /* UIImage+Blurring.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289F0144EF39800B6B6D5 /* UIImage+Blurring.m */; };
-		1E028A03144EF39800B6B6D5 /* UIImage+Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289F1144EF39800B6B6D5 /* UIImage+Filtering.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A04144EF39800B6B6D5 /* UIImage+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289F2144EF39800B6B6D5 /* UIImage+Filtering.m */; };
-		1E028A05144EF39800B6B6D5 /* UIImage+Masking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289F3144EF39800B6B6D5 /* UIImage+Masking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A06144EF39800B6B6D5 /* UIImage+Masking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289F4144EF39800B6B6D5 /* UIImage+Masking.m */; };
-		1E028A07144EF39800B6B6D5 /* UIImage+Reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289F5144EF39800B6B6D5 /* UIImage+Reflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A08144EF39800B6B6D5 /* UIImage+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289F6144EF39800B6B6D5 /* UIImage+Reflection.m */; };
-		1E028A09144EF39800B6B6D5 /* UIImage+Resizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289F7144EF39800B6B6D5 /* UIImage+Resizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A0A144EF39800B6B6D5 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289F8144EF39800B6B6D5 /* UIImage+Resizing.m */; };
-		1E028A0B144EF39800B6B6D5 /* UIImage+Rotating.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289F9144EF39800B6B6D5 /* UIImage+Rotating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A0C144EF39800B6B6D5 /* UIImage+Rotating.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289FA144EF39800B6B6D5 /* UIImage+Rotating.m */; };
-		1E028A0D144EF39800B6B6D5 /* UIImage+Saving.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289FB144EF39800B6B6D5 /* UIImage+Saving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A0E144EF39800B6B6D5 /* UIImage+Saving.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289FC144EF39800B6B6D5 /* UIImage+Saving.m */; };
-		1E028A0F144EF39800B6B6D5 /* NYXImagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289FE144EF39800B6B6D5 /* NYXImagesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A10144EF39800B6B6D5 /* NYXImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289FF144EF39800B6B6D5 /* NYXImagesHelper.m */; };
-		1E028A11144EF39800B6B6D5 /* NYXImagesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E028A00144EF39800B6B6D5 /* NYXImagesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E028A13144EF3AA00B6B6D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A12144EF3AA00B6B6D5 /* QuartzCore.framework */; };
-		1E028A15144EF3AF00B6B6D5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A14144EF3AF00B6B6D5 /* ImageIO.framework */; };
-		1E028A17144EF3B500B6B6D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A16144EF3B500B6B6D5 /* MobileCoreServices.framework */; };
-		1E028A19144EF41000B6B6D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A18144EF41000B6B6D5 /* UIKit.framework */; };
-		1E30CA89148E57CB00106BF8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E30CA88148E57CA00106BF8 /* Accelerate.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		1E53F0E41486C3FF00BD33AD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E53F0E31486C3FF00BD33AD /* CoreImage.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		1E9BA7B314C0B0EF0072A0FB /* NYXProgressiveImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9BA7B114C0B0EF0072A0FB /* NYXProgressiveImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E9BA7B414C0B0EF0072A0FB /* NYXProgressiveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9BA7B214C0B0EF0072A0FB /* NYXProgressiveImageView.m */; };
-		1EED6787148A314B00B71186 /* UIImage+Enhancing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EED6785148A314B00B71186 /* UIImage+Enhancing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EED6788148A314B00B71186 /* UIImage+Enhancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EED6786148A314B00B71186 /* UIImage+Enhancing.m */; };
-		1EF44D4F17058586005F335C /* UIView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF44D4D17058586005F335C /* UIView+Screenshot.h */; };
-		1EF44D5017058586005F335C /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF44D4E17058586005F335C /* UIView+Screenshot.m */; };
-		1EF44D5317058627005F335C /* UIScrollView+Screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF44D5117058627005F335C /* UIScrollView+Screenshot.h */; };
-		1EF44D5417058627005F335C /* UIScrollView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF44D5217058627005F335C /* UIScrollView+Screenshot.m */; };
 		24C2DE940CD9ACCF8A970AA7 /* libPods-NYXImagesKitDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB290A42B20551B1440C03CA /* libPods-NYXImagesKitDemoTests.a */; };
+		CDE67DE32C051391032072EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9951BC271870EB3A0EBB59B7 /* libPods.a */; };
 		D1044DC21AE2F91E00BF9339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DC11AE2F91E00BF9339 /* main.m */; };
 		D1044DC51AE2F91E00BF9339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DC41AE2F91E00BF9339 /* AppDelegate.m */; };
 		D1044DC81AE2F91E00BF9339 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DC71AE2F91E00BF9339 /* ViewController.m */; };
@@ -48,6 +16,15 @@
 		D1044DCD1AE2F91E00BF9339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1044DCC1AE2F91E00BF9339 /* Images.xcassets */; };
 		D1044DD01AE2F91E00BF9339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1044DCE1AE2F91E00BF9339 /* LaunchScreen.xib */; };
 		D1044DDC1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DDB1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m */; };
+		D1044DE71AE2FD0E00BF9339 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1044DE61AE2FD0E00BF9339 /* cat.jpg */; };
+		D1044DE81AE301FE00BF9339 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E30CA88148E57CA00106BF8 /* Accelerate.framework */; };
+		D1044DEA1AE3020500BF9339 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1044DE91AE3020500BF9339 /* AssetsLibrary.framework */; };
+		D1044DEB1AE3020D00BF9339 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A14144EF3AF00B6B6D5 /* ImageIO.framework */; };
+		D1044DEC1AE3021600BF9339 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E53F0E31486C3FF00BD33AD /* CoreImage.framework */; };
+		D1044DED1AE3022300BF9339 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A16144EF3B500B6B6D5 /* MobileCoreServices.framework */; };
+		D1044DEE1AE3022C00BF9339 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E028A12144EF3AA00B6B6D5 /* QuartzCore.framework */; };
+		D1044DEF1AE3024400BF9339 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1044DE61AE2FD0E00BF9339 /* cat.jpg */; };
+		D1044DF61AE3092900BF9339 /* ReferenceImages in Resources */ = {isa = PBXBuildFile; fileRef = D1044DF51AE3092900BF9339 /* ReferenceImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,53 +35,23 @@
 			remoteGlobalIDString = D1044DBC1AE2F91E00BF9339;
 			remoteInfo = NYXImagesKitDemo;
 		};
-		D1044DE41AE2F94900BF9339 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E0289CE144EF32200B6B6D5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E0289D6144EF32200B6B6D5;
-			remoteInfo = NYXImagesKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E0289D7144EF32200B6B6D5 /* libNYXImagesKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNYXImagesKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0289DA144EF32200B6B6D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E0289EC144EF38B00B6B6D5 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = "Other Sources/Prefix.pch"; sourceTree = "<group>"; };
-		1E0289EF144EF39800B6B6D5 /* UIImage+Blurring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blurring.h"; sourceTree = "<group>"; };
-		1E0289F0144EF39800B6B6D5 /* UIImage+Blurring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blurring.m"; sourceTree = "<group>"; };
-		1E0289F1144EF39800B6B6D5 /* UIImage+Filtering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Filtering.h"; sourceTree = "<group>"; };
-		1E0289F2144EF39800B6B6D5 /* UIImage+Filtering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Filtering.m"; sourceTree = "<group>"; };
-		1E0289F3144EF39800B6B6D5 /* UIImage+Masking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Masking.h"; sourceTree = "<group>"; };
-		1E0289F4144EF39800B6B6D5 /* UIImage+Masking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Masking.m"; sourceTree = "<group>"; };
-		1E0289F5144EF39800B6B6D5 /* UIImage+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Reflection.h"; sourceTree = "<group>"; };
-		1E0289F6144EF39800B6B6D5 /* UIImage+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Reflection.m"; sourceTree = "<group>"; };
-		1E0289F7144EF39800B6B6D5 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
-		1E0289F8144EF39800B6B6D5 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
-		1E0289F9144EF39800B6B6D5 /* UIImage+Rotating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotating.h"; sourceTree = "<group>"; };
-		1E0289FA144EF39800B6B6D5 /* UIImage+Rotating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotating.m"; sourceTree = "<group>"; };
-		1E0289FB144EF39800B6B6D5 /* UIImage+Saving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Saving.h"; sourceTree = "<group>"; };
-		1E0289FC144EF39800B6B6D5 /* UIImage+Saving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Saving.m"; sourceTree = "<group>"; };
-		1E0289FE144EF39800B6B6D5 /* NYXImagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYXImagesHelper.h; sourceTree = "<group>"; };
-		1E0289FF144EF39800B6B6D5 /* NYXImagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXImagesHelper.m; sourceTree = "<group>"; };
-		1E028A00144EF39800B6B6D5 /* NYXImagesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYXImagesKit.h; sourceTree = "<group>"; };
 		1E028A12144EF3AA00B6B6D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1E028A14144EF3AF00B6B6D5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		1E028A16144EF3B500B6B6D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1E028A18144EF41000B6B6D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1E30CA88148E57CA00106BF8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		1E53F0E31486C3FF00BD33AD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		1E9BA7B114C0B0EF0072A0FB /* NYXProgressiveImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYXProgressiveImageView.h; sourceTree = "<group>"; };
-		1E9BA7B214C0B0EF0072A0FB /* NYXProgressiveImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXProgressiveImageView.m; sourceTree = "<group>"; };
-		1EED6785148A314B00B71186 /* UIImage+Enhancing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Enhancing.h"; sourceTree = "<group>"; };
-		1EED6786148A314B00B71186 /* UIImage+Enhancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Enhancing.m"; sourceTree = "<group>"; };
-		1EF44D4D17058586005F335C /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
-		1EF44D4E17058586005F335C /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
-		1EF44D5117058627005F335C /* UIScrollView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Screenshot.h"; sourceTree = "<group>"; };
-		1EF44D5217058627005F335C /* UIScrollView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Screenshot.m"; sourceTree = "<group>"; };
+		746A89B5BE18F4FB80A6C067 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8A76B472C1C0B9276CEC3A15 /* Pods-NYXImagesKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYXImagesKitDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYXImagesKitDemoTests/Pods-NYXImagesKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9951BC271870EB3A0EBB59B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD5533475A30D17F13B3063 /* Pods-NYXImagesKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYXImagesKitDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYXImagesKitDemoTests/Pods-NYXImagesKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB290A42B20551B1440C03CA /* libPods-NYXImagesKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYXImagesKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80E10E8684DABFD678B6DAD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D1044DBD1AE2F91E00BF9339 /* NYXImagesKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYXImagesKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1044DC01AE2F91E00BF9339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1044DC11AE2F91E00BF9339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,27 +65,23 @@
 		D1044DD51AE2F91E00BF9339 /* NYXImagesKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYXImagesKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1044DDA1AE2F91F00BF9339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1044DDB1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYXImagesKitDemoTests.m; sourceTree = "<group>"; };
+		D1044DE61AE2FD0E00BF9339 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		D1044DE91AE3020500BF9339 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D1044DF51AE3092900BF9339 /* ReferenceImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReferenceImages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E0289D4144EF32200B6B6D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E30CA89148E57CB00106BF8 /* Accelerate.framework in Frameworks */,
-				1E53F0E41486C3FF00BD33AD /* CoreImage.framework in Frameworks */,
-				1E028A19144EF41000B6B6D5 /* UIKit.framework in Frameworks */,
-				1E028A17144EF3B500B6B6D5 /* MobileCoreServices.framework in Frameworks */,
-				1E028A15144EF3AF00B6B6D5 /* ImageIO.framework in Frameworks */,
-				1E028A13144EF3AA00B6B6D5 /* QuartzCore.framework in Frameworks */,
-				1E0289DB144EF32200B6B6D5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D1044DBA1AE2F91E00BF9339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1044DEE1AE3022C00BF9339 /* QuartzCore.framework in Frameworks */,
+				D1044DED1AE3022300BF9339 /* MobileCoreServices.framework in Frameworks */,
+				D1044DEC1AE3021600BF9339 /* CoreImage.framework in Frameworks */,
+				D1044DEB1AE3020D00BF9339 /* ImageIO.framework in Frameworks */,
+				D1044DEA1AE3020500BF9339 /* AssetsLibrary.framework in Frameworks */,
+				D1044DE81AE301FE00BF9339 /* Accelerate.framework in Frameworks */,
+				CDE67DE32C051391032072EA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +99,6 @@
 		1E0289CC144EF32200B6B6D5 = {
 			isa = PBXGroup;
 			children = (
-				D1044DE31AE2F93E00BF9339 /* Source */,
 				1E0289EB144EF37F00B6B6D5 /* Other Sources */,
 				D1044DBE1AE2F91E00BF9339 /* NYXImagesKitDemo */,
 				D1044DD81AE2F91E00BF9339 /* NYXImagesKitDemoTests */,
@@ -169,7 +111,6 @@
 		1E0289D8144EF32200B6B6D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E0289D7144EF32200B6B6D5 /* libNYXImagesKit.a */,
 				D1044DBD1AE2F91E00BF9339 /* NYXImagesKitDemo.app */,
 				D1044DD51AE2F91E00BF9339 /* NYXImagesKitDemoTests.xctest */,
 			);
@@ -179,6 +120,7 @@
 		1E0289D9144EF32200B6B6D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1044DE91AE3020500BF9339 /* AssetsLibrary.framework */,
 				1E30CA88148E57CA00106BF8 /* Accelerate.framework */,
 				1E53F0E31486C3FF00BD33AD /* CoreImage.framework */,
 				1E028A18144EF41000B6B6D5 /* UIKit.framework */,
@@ -187,6 +129,7 @@
 				1E028A12144EF3AA00B6B6D5 /* QuartzCore.framework */,
 				1E0289DA144EF32200B6B6D5 /* Foundation.framework */,
 				BB290A42B20551B1440C03CA /* libPods-NYXImagesKitDemoTests.a */,
+				9951BC271870EB3A0EBB59B7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,55 +140,6 @@
 				1E0289EC144EF38B00B6B6D5 /* Prefix.pch */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		1E0289EE144EF39800B6B6D5 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				1E0289EF144EF39800B6B6D5 /* UIImage+Blurring.h */,
-				1E0289F0144EF39800B6B6D5 /* UIImage+Blurring.m */,
-				1EED6785148A314B00B71186 /* UIImage+Enhancing.h */,
-				1EED6786148A314B00B71186 /* UIImage+Enhancing.m */,
-				1E0289F1144EF39800B6B6D5 /* UIImage+Filtering.h */,
-				1E0289F2144EF39800B6B6D5 /* UIImage+Filtering.m */,
-				1E0289F3144EF39800B6B6D5 /* UIImage+Masking.h */,
-				1E0289F4144EF39800B6B6D5 /* UIImage+Masking.m */,
-				1E0289F5144EF39800B6B6D5 /* UIImage+Reflection.h */,
-				1E0289F6144EF39800B6B6D5 /* UIImage+Reflection.m */,
-				1E0289F7144EF39800B6B6D5 /* UIImage+Resizing.h */,
-				1E0289F8144EF39800B6B6D5 /* UIImage+Resizing.m */,
-				1E0289F9144EF39800B6B6D5 /* UIImage+Rotating.h */,
-				1E0289FA144EF39800B6B6D5 /* UIImage+Rotating.m */,
-				1E0289FB144EF39800B6B6D5 /* UIImage+Saving.h */,
-				1E0289FC144EF39800B6B6D5 /* UIImage+Saving.m */,
-				1EF44D4D17058586005F335C /* UIView+Screenshot.h */,
-				1EF44D4E17058586005F335C /* UIView+Screenshot.m */,
-				1EF44D5117058627005F335C /* UIScrollView+Screenshot.h */,
-				1EF44D5217058627005F335C /* UIScrollView+Screenshot.m */,
-			);
-			name = Categories;
-			path = ../Source/Categories;
-			sourceTree = "<group>";
-		};
-		1E0289FD144EF39800B6B6D5 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				1E0289FE144EF39800B6B6D5 /* NYXImagesHelper.h */,
-				1E0289FF144EF39800B6B6D5 /* NYXImagesHelper.m */,
-				1E028A00144EF39800B6B6D5 /* NYXImagesKit.h */,
-			);
-			name = Helper;
-			path = ../Source/Helper;
-			sourceTree = "<group>";
-		};
-		1E9BA7B014C0B0EF0072A0FB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1E9BA7B114C0B0EF0072A0FB /* NYXProgressiveImageView.h */,
-				1E9BA7B214C0B0EF0072A0FB /* NYXProgressiveImageView.m */,
-			);
-			name = Classes;
-			path = ../Source/Classes;
 			sourceTree = "<group>";
 		};
 		D1044DBE1AE2F91E00BF9339 /* NYXImagesKitDemo */ = {
@@ -275,6 +169,8 @@
 		D1044DD81AE2F91E00BF9339 /* NYXImagesKitDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				D1044DF51AE3092900BF9339 /* ReferenceImages */,
+				D1044DE61AE2FD0E00BF9339 /* cat.jpg */,
 				D1044DDB1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m */,
 				D1044DD91AE2F91F00BF9339 /* Supporting Files */,
 			);
@@ -289,81 +185,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D1044DE31AE2F93E00BF9339 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				1E0289FD144EF39800B6B6D5 /* Helper */,
-				1E9BA7B014C0B0EF0072A0FB /* Classes */,
-				1E0289EE144EF39800B6B6D5 /* Categories */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
 		F917380435F6985DC2CBDFCA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8A76B472C1C0B9276CEC3A15 /* Pods-NYXImagesKitDemoTests.debug.xcconfig */,
 				9BD5533475A30D17F13B3063 /* Pods-NYXImagesKitDemoTests.release.xcconfig */,
+				C80E10E8684DABFD678B6DAD /* Pods.debug.xcconfig */,
+				746A89B5BE18F4FB80A6C067 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		1E0289D5144EF32200B6B6D5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E028A11144EF39800B6B6D5 /* NYXImagesKit.h in Headers */,
-				1E028A01144EF39800B6B6D5 /* UIImage+Blurring.h in Headers */,
-				1E028A03144EF39800B6B6D5 /* UIImage+Filtering.h in Headers */,
-				1E028A05144EF39800B6B6D5 /* UIImage+Masking.h in Headers */,
-				1E028A07144EF39800B6B6D5 /* UIImage+Reflection.h in Headers */,
-				1E028A09144EF39800B6B6D5 /* UIImage+Resizing.h in Headers */,
-				1E028A0B144EF39800B6B6D5 /* UIImage+Rotating.h in Headers */,
-				1E028A0D144EF39800B6B6D5 /* UIImage+Saving.h in Headers */,
-				1EED6787148A314B00B71186 /* UIImage+Enhancing.h in Headers */,
-				1E9BA7B314C0B0EF0072A0FB /* NYXProgressiveImageView.h in Headers */,
-				1E028A0F144EF39800B6B6D5 /* NYXImagesHelper.h in Headers */,
-				1E0289ED144EF38B00B6B6D5 /* Prefix.pch in Headers */,
-				1EF44D4F17058586005F335C /* UIView+Screenshot.h in Headers */,
-				1EF44D5317058627005F335C /* UIScrollView+Screenshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		1E0289D6144EF32200B6B6D5 /* NYXImagesKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E0289E4144EF32200B6B6D5 /* Build configuration list for PBXNativeTarget "NYXImagesKit" */;
-			buildPhases = (
-				1E0289D3144EF32200B6B6D5 /* Sources */,
-				1E0289D4144EF32200B6B6D5 /* Frameworks */,
-				1E0289D5144EF32200B6B6D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NYXImagesKit;
-			productName = NYXImagesUtilities;
-			productReference = 1E0289D7144EF32200B6B6D5 /* libNYXImagesKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		D1044DBC1AE2F91E00BF9339 /* NYXImagesKitDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1044DE11AE2F91F00BF9339 /* Build configuration list for PBXNativeTarget "NYXImagesKitDemo" */;
 			buildPhases = (
+				CF5E1478FC8F9A287AED3654 /* Check Pods Manifest.lock */,
 				D1044DB91AE2F91E00BF9339 /* Sources */,
 				D1044DBA1AE2F91E00BF9339 /* Frameworks */,
 				D1044DBB1AE2F91E00BF9339 /* Resources */,
+				A296829FCF2392C57F4BF5CA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1044DE51AE2F94900BF9339 /* PBXTargetDependency */,
 			);
 			name = NYXImagesKitDemo;
 			productName = NYXImagesKitDemo;
@@ -421,7 +269,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E0289D6144EF32200B6B6D5 /* NYXImagesKit */,
 				D1044DBC1AE2F91E00BF9339 /* NYXImagesKitDemo */,
 				D1044DD41AE2F91E00BF9339 /* NYXImagesKitDemoTests */,
 			);
@@ -435,6 +282,7 @@
 			files = (
 				D1044DCB1AE2F91E00BF9339 /* Main.storyboard in Resources */,
 				D1044DD01AE2F91E00BF9339 /* LaunchScreen.xib in Resources */,
+				D1044DEF1AE3024400BF9339 /* cat.jpg in Resources */,
 				D1044DCD1AE2F91E00BF9339 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1044DF61AE3092900BF9339 /* ReferenceImages in Resources */,
+				D1044DE71AE2FD0E00BF9339 /* cat.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,28 +329,39 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		A296829FCF2392C57F4BF5CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5E1478FC8F9A287AED3654 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E0289D3144EF32200B6B6D5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E028A02144EF39800B6B6D5 /* UIImage+Blurring.m in Sources */,
-				1E028A04144EF39800B6B6D5 /* UIImage+Filtering.m in Sources */,
-				1E028A06144EF39800B6B6D5 /* UIImage+Masking.m in Sources */,
-				1E028A08144EF39800B6B6D5 /* UIImage+Reflection.m in Sources */,
-				1E028A0A144EF39800B6B6D5 /* UIImage+Resizing.m in Sources */,
-				1E028A0C144EF39800B6B6D5 /* UIImage+Rotating.m in Sources */,
-				1E028A0E144EF39800B6B6D5 /* UIImage+Saving.m in Sources */,
-				1E028A10144EF39800B6B6D5 /* NYXImagesHelper.m in Sources */,
-				1EED6788148A314B00B71186 /* UIImage+Enhancing.m in Sources */,
-				1E9BA7B414C0B0EF0072A0FB /* NYXProgressiveImageView.m in Sources */,
-				1EF44D5017058586005F335C /* UIView+Screenshot.m in Sources */,
-				1EF44D5417058627005F335C /* UIScrollView+Screenshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D1044DB91AE2F91E00BF9339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,11 +387,6 @@
 			isa = PBXTargetDependency;
 			target = D1044DBC1AE2F91E00BF9339 /* NYXImagesKitDemo */;
 			targetProxy = D1044DD61AE2F91E00BF9339 /* PBXContainerItemProxy */;
-		};
-		D1044DE51AE2F94900BF9339 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E0289D6144EF32200B6B6D5 /* NYXImagesKit */;
-			targetProxy = D1044DE41AE2F94900BF9339 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -635,98 +491,9 @@
 			};
 			name = Release;
 		};
-		1E0289E5144EF32200B6B6D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				DSTROOT = /tmp/NYXImagesUtilities.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Other Sources/Prefix.pch";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
-				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = "";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
-				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
-				GCC_WARN_PEDANTIC = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NYXImagesKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
-				RUN_CLANG_STATIC_ANALYZER = YES;
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		1E0289E6144EF32200B6B6D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				DSTROOT = /tmp/NYXImagesUtilities.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Other Sources/Prefix.pch";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
-				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = "";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
-				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
-				GCC_WARN_PEDANTIC = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NYXImagesKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
-				RUN_CLANG_STATIC_ANALYZER = YES;
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		D1044DDD1AE2F91F00BF9339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80E10E8684DABFD678B6DAD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -747,6 +514,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"../Source/**",
+				);
 				INFOPLIST_FILE = NYXImagesKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -757,6 +529,7 @@
 		};
 		D1044DDE1AE2F91F00BF9339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746A89B5BE18F4FB80A6C067 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -775,6 +548,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"../Source/**",
+				);
 				INFOPLIST_FILE = NYXImagesKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -805,6 +583,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/NYXImagesKitDemoTests/ReferenceImages\\\"\"",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -859,15 +638,6 @@
 			buildConfigurations = (
 				1E0289E2144EF32200B6B6D5 /* Debug */,
 				1E0289E3144EF32200B6B6D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E0289E4144EF32200B6B6D5 /* Build configuration list for PBXNativeTarget "NYXImagesKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E0289E5144EF32200B6B6D5 /* Debug */,
-				1E0289E6144EF32200B6B6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

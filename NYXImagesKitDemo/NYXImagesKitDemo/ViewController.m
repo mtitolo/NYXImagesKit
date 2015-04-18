@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <NYXImagesKit/NYXImagesKit.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIImage *originalImage = [UIImage imageNamed:@"cat.jpg"];
+    UIImage *blurred = [originalImage gaussianBlurWithBias:5];
 }
 
 - (void)didReceiveMemoryWarning {
