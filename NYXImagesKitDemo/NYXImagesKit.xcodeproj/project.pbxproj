@@ -15,7 +15,7 @@
 		D1044DCB1AE2F91E00BF9339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1044DC91AE2F91E00BF9339 /* Main.storyboard */; };
 		D1044DCD1AE2F91E00BF9339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1044DCC1AE2F91E00BF9339 /* Images.xcassets */; };
 		D1044DD01AE2F91E00BF9339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1044DCE1AE2F91E00BF9339 /* LaunchScreen.xib */; };
-		D1044DDC1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DDB1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m */; };
+		D1044DDC1AE2F91F00BF9339 /* NYXBlurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1044DDB1AE2F91F00BF9339 /* NYXBlurTests.m */; };
 		D1044DE71AE2FD0E00BF9339 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1044DE61AE2FD0E00BF9339 /* cat.jpg */; };
 		D1044DE81AE301FE00BF9339 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E30CA88148E57CA00106BF8 /* Accelerate.framework */; };
 		D1044DEA1AE3020500BF9339 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1044DE91AE3020500BF9339 /* AssetsLibrary.framework */; };
@@ -64,7 +64,7 @@
 		D1044DCF1AE2F91E00BF9339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D1044DD51AE2F91E00BF9339 /* NYXImagesKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYXImagesKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1044DDA1AE2F91F00BF9339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1044DDB1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYXImagesKitDemoTests.m; sourceTree = "<group>"; };
+		D1044DDB1AE2F91F00BF9339 /* NYXBlurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYXBlurTests.m; sourceTree = "<group>"; };
 		D1044DE61AE2FD0E00BF9339 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 		D1044DE91AE3020500BF9339 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		D1044DF51AE3092900BF9339 /* ReferenceImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReferenceImages; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 			children = (
 				D1044DF51AE3092900BF9339 /* ReferenceImages */,
 				D1044DE61AE2FD0E00BF9339 /* cat.jpg */,
-				D1044DDB1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m */,
+				D1044DDB1AE2F91F00BF9339 /* NYXBlurTests.m */,
 				D1044DD91AE2F91F00BF9339 /* Supporting Files */,
 			);
 			path = NYXImagesKitDemoTests;
@@ -376,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1044DDC1AE2F91F00BF9339 /* NYXImagesKitDemoTests.m in Sources */,
+				D1044DDC1AE2F91F00BF9339 /* NYXBlurTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

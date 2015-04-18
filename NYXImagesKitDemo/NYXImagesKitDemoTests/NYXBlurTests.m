@@ -12,11 +12,11 @@
 
 #import "UIImage+Blurring.h"
 
-@interface NYXImagesKitDemoTests : FBSnapshotTestCase
+@interface NYXBlurTests : FBSnapshotTestCase
 
 @end
 
-@implementation NYXImagesKitDemoTests
+@implementation NYXBlurTests
 
 - (UIImage *)bundledImageNamed:(NSString *)name type:(NSString *)type
 {
